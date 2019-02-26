@@ -1,0 +1,221 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	padding: 0 15px;
+	margin: 0 auto;
+}
+@media(min-width: 768px){
+	.container{
+	width: 750px;
+}
+}
+@media(min-width: 992px){
+	.container{
+	width: 970px;
+}
+}
+@media(min-width: 1200px){
+	.container{
+	width: 1170px;
+}
+}
+.container-fluid{
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.form{
+	padding: 15px;
+	margin: 15px;
+}
+h1{
+	font-family: cursive;
+	padding-top: 30px;
+	text-align: center;
+	color: white;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img {
+  width: 200px;
+  height: 100px;
+  max-width: 100%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.kevli{
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+}
+.lfooter{
+	position: fixed;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+	background-color: transparent;
+  	text-align:center;
+  	padding:20px;
+}
+.rfooter{
+	position: fixed;
+   	width: 100%;
+	background-color: transparent;
+  	text-align:center;
+  	padding:20px;
+  	position: absolute;
+  	bottom: 0;
+}
+.ifooter{
+	background-color: rgb(38,38,38);
+	color:white;
+   	width: 100%;
+  	padding:20px;
+}
+#lbground{
+	background-image:url("login.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 100vh;
+	float: left;
+}
+#rbground{
+	background-image:url("recup.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.lnav{
+	background-color: transparent;
+}
+.lnav li{
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+}
+.lh1{
+	font-size: 100px;
+	color: #3366ff;
+}
+.rh1{
+	font-size: 100px;
+	color: white;
+}
+.rnav{
+	background-color: transparent;
+	color: white;
+	position: absolute center;
+	top:0;
+}
+.inav{
+	color: white;
+}
+.kevform{
+	background-color: rgba(204,204,255,0.5);
+	border-radius: 5px;
+	padding: 20px;
+	position: absolute;
+	transform: translate(-0% , +30%);
+}
+.kevform2{
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 5px;
+	padding: 20px;
+	position: absolute;
+	transform: translate(-0% , +30%);
+}
+#lfp{
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+#rfp{
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+#ifp{
+	text-align: center;
+	color: #000;
+}
+a.llogin{
+	color:#000099;
+} 
+a.llogin:hover{
+	color:#0000e6;
+}
+span{
+	color:rgb(0,153,153);
+}
+a.arecup{
+	color:rgb(51,51,255);
+}
+a.arecup:hover{
+	color:rgb(0,0,255);
+}
+label.lrecup{
+	color: white;
+}
+#kevsubmit2{
+	color: white;
+}
+#kevsubmit2:hover{
+	color: white;
+}
+.jumbotron{
+	background-color: rgba(0,0,0,0.5);
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding-top: 0px;
+	border-radius: 5px;
+	color: white;
+}
+#ltitulo{
+	text-align: center;
+	font-size: 25px;
+	margin: 0px;
+	display: block;
+	padding: 10px;
+}
+#rtitulo{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	margin: 0px;
+	display: block;
+	padding: 10px;
+}
+.logouser{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+.logoiden{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
